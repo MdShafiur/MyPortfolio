@@ -4,10 +4,7 @@ function toggleMenu() {
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 }
-function toggleMenu() {
-  const menu = document.querySelector('.menu-links');
-  menu.classList.toggle('active');
-}
+
 
 // Create a canvas for particle animation
 const canvas = document.createElement('canvas');
